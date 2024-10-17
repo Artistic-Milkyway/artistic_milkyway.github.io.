@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artistic Milkyway - My Art Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      margin: 0;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .item {
+      background: white;
+      margin: 15px;
+      padding: 10px;
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .item h3 {
+      margin-top: 10px;
+      color: #333;
+    }
+    .item p {
+      margin: 5px 0;
+      color: #666;
+    }
+    .buy-button {
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .buy-button:hover {
+      background-color: #357ab8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Artistic Milkyway - Reflecting Life Through Art</h1>
+  <div class="gallery">
+    <div class="item">
+      <img src="images/painting1.jpg" alt="Painting 1">
+      <h3>Freedom in Bloom</h3>
+      <p>Price: $100</p>
+      <button class="buy-button" onclick="window.open('https://paypal.me/artisticmilkyway/100')">Buy Now</button>
+    </div>
+    <div class="item">
+      <img src="images/painting2.jpg" alt="Painting 2">
+      <h3>Self-Love Reflection</h3>
+      <p>Price: $150</p>
+      <button class="buy-button" onclick="window.open('https://paypal.me/artisticmilkyway/150')">Buy Now</button>
+    </div>
+  </div>
+</body>
+</html>
